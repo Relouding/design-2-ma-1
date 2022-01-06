@@ -1,0 +1,62 @@
+  /* Navigation */
+  .nav__container {
+    width: 100%;
+    margin-top: 10px;
+    position: sticky;
+    z-index: 25;
+  }
+
+  .nav__content {
+    background-color: #9DAB86;
+    border-radius: 5px;
+    max-width: 1000px;
+    height: 70px;
+    margin: auto;
+    position: relative;
+  }
+
+  .nav__content a {
+    font-weight: bold;
+    font-family: helvetica;
+    font-size: .9em;
+  }
+
+  .nav__content img {
+    width: 100%;
+    height: 50px;
+  }
+
+  .nav__logo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+
+  .__active {
+    font-style: italic;
+    color: #F3F3F3;
+    text-decoration: underline;
+  }
+
+  .__deactive {
+    color: #EBE6E6;
+    text-decoration: none;
+  }
+
+  .__left {
+    position: absolute;
+    right: 210px;
+    top: 10px;
+  }
+
+  .__center {
+    position: absolute;
+    right: 110px;
+    top: 10px;
+  }
+
+  .__right {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
